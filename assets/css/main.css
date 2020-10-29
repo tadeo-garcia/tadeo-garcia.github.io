@@ -1719,6 +1719,443 @@ body.is-preload #header .content .inner {
   }
 }
 
+#skills {
+  display: block;
+}
+
+#about p {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.25px;
+}
+
+#projects {
+  letter-spacing: 0.5px;
+}
+
+#projects a:link {
+  text-decoration: none;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.25px;
+}
+
+.projects a:link {
+  border: none;
+  letter-spacing: 0.25px;
+}
+
+.project-links a:link {
+  border-bottom: dotted rgba(255, 255, 255, 0.8) 1px;
+  transition: 1s;
+}
+
+.project-links a:hover {
+  border-bottom: none;
+  letter-spacing: 0.25px;
+  transition: 1s;
+}
+
+.projects img {
+  width: 50%;
+  border-radius: 15px;
+  opacity: 0.65;
+  transition: 1s;
+}
+
+.projects img:hover {
+  opacity: 0.95;
+  transition: 1s;
+}
+
+.project-details {
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.odaat-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/odaat_dashboard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.odaat-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.odaat-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.money-pit-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/wordplay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.money-pit-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.money-pit-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.stickr-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/depth_perception.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.stickr-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.stickr-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.cws-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/mintbot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.cws-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.cws-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.project-description a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.project-description a:hover {
+  color: grey;
+}
+
+.project-title {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3.5px;
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 7.75rem;
+  transition: 1s;
+}
+
+.project-links {
+  text-align: right;
+}
+
+.project-links a:link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.in-progress {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.project-description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project-description-2 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#skills {
+  display: block;
+}
+
+#about p {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.25px;
+}
+
+#projects {
+  letter-spacing: 0.5px;
+}
+
+#projects a:link {
+  text-decoration: none;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.25px;
+}
+
+.projects a:link {
+  border: none;
+  letter-spacing: 0.25px;
+}
+
+.project-links a:link {
+  border-bottom: dotted rgba(255, 255, 255, 0.8) 1px;
+  transition: 1s;
+}
+
+.project-links a:hover {
+  border-bottom: none;
+  letter-spacing: 0.25px;
+  transition: 1s;
+}
+
+.projects img {
+  width: 50%;
+  border-radius: 15px;
+  opacity: 0.65;
+  transition: 1s;
+}
+
+.projects img:hover {
+  opacity: 0.95;
+  transition: 1s;
+}
+
+.project-details {
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.odaat-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/odaat_dashboard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.odaat-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.odaat-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.money-pit-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/money-pit_home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.money-pit-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.money-pit-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.stickr-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/stickr_home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.stickr-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.stickr-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.cws-img-container {
+  position: relative;
+  height: 18rem;
+  width: 18rem;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-image: url("../../images/cws_home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.cws-img-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.cws-img-container:hover .project-title {
+  opacity: 0;
+  transition: 1s;
+}
+
+.project-description a {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.project-description a:hover {
+  color: grey;
+}
+
+.project-title {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3.5px;
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 7.75rem;
+  transition: 1s;
+}
+
+.project-links {
+  text-align: right;
+}
+
+.project-links a:link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.in-progress {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.project-description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.project-description-2 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
 /* Page Flip Navigation */
 
 .page-flip-container {
