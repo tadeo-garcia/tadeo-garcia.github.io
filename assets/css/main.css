@@ -1792,6 +1792,7 @@ body.is-preload #header .content .inner {
   }
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media screen and (max-width: 480px) {
   #main article {
     padding: 3rem 1.5rem 0.5rem 1.5rem;
@@ -2233,6 +2234,39 @@ body.is-preload #header .content .inner {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 560px) {
+  .projects {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .odaat-img-container {
+    width: 100%;
+  }
+
+  .money-pit-img-container {
+    width: 100%;
+  }
+
+  .stickr-img-container {
+    width: 100%;
+  }
+
+  .cws-img-container {
+    width: 100%;
+  }
+
+  .project-details {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
 }
 
 /* Page Flip Navigation */
