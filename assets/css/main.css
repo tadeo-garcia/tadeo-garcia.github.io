@@ -1861,6 +1861,10 @@ body.is-preload #header .content .inner {
   justify-content: space-around;
 }
 
+.project-description {
+  text-align: justify;
+}
+
 .odaat-img-container {
   position: relative;
   height: 18rem;
