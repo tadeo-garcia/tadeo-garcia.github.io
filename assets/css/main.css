@@ -1887,22 +1887,6 @@ body.is-preload #header .content .inner {
   transition: 1s;
 }
 
-.money-pit-img-container {
-  position: relative;
-  height: 18rem;
-  width: 18rem;
-  opacity: 0.8;
-  border-radius: 5px;
-  background-image: url("../../images/wordplay.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
-}
-
 .money-pit-img-container:hover {
   opacity: 1;
   cursor: pointer;
@@ -1910,22 +1894,6 @@ body.is-preload #header .content .inner {
 
 .money-pit-img-container:hover .project-title {
   opacity: 0;
-  transition: 1s;
-}
-
-.stickr-img-container {
-  position: relative;
-  height: 18rem;
-  width: 18rem;
-  opacity: 0.8;
-  border-radius: 5px;
-  background-image: url("../../images/depth_perception.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: 1s;
 }
 
@@ -1939,28 +1907,12 @@ body.is-preload #header .content .inner {
   transition: 1s;
 }
 
-.cws-img-container {
-  position: relative;
-  height: 18rem;
-  width: 18rem;
-  opacity: 0.8;
-  border-radius: 5px;
-  background-image: url("../../images/mintbot.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
-}
-
-.cws-img-container:hover {
+.pgc-img-container:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-.cws-img-container:hover .project-title {
+.pgc-img-container:hover .project-title {
   opacity: 0;
   transition: 1s;
 }
@@ -2157,15 +2109,15 @@ body.is-preload #header .content .inner {
   transition: 1s;
 }
 
-.cws-img-container {
+.pgc-img-container {
   position: relative;
   height: 18rem;
   width: 18rem;
   opacity: 0.8;
   border-radius: 5px;
-  background-image: url("../../images/cws_home.png");
+  background-image: url("../../images/pgc.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -2173,12 +2125,12 @@ body.is-preload #header .content .inner {
   transition: 1s;
 }
 
-.cws-img-container:hover {
+.pgc-img-container:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-.cws-img-container:hover .project-title {
+.pgc-img-container:hover .project-title {
   opacity: 0;
   transition: 1s;
 }
@@ -2256,7 +2208,7 @@ body.is-preload #header .content .inner {
     width: 100%;
   }
 
-  .cws-img-container {
+  .pgc-img-container {
     width: 100%;
   }
 
